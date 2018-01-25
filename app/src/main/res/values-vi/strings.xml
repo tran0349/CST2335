@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="hello_message">Xin chao!</string>
+    <string name="ButtonText">Nut</string>
+    <string name="login_message">Dang nhap</string>
+    <string name="login_name">Ten dang nhap</string>
+    <string name="password_message">Mat khau</string>
+    <string name="password_name"></string>
+    <string name="switch_name">What does this do?</string>
+    </resources>
