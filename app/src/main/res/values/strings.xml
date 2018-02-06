@@ -9,4 +9,5 @@
     <string name="radiobutton_name">RadioButton</string>
     <string name="checkbox_name">Checkbox</string>
     <string name="switch_name">What does this do?</string>
+    <string name="loginButtonLabel">Login</string>
 </resources>

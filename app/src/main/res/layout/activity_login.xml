@@ -15,8 +15,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="start"
         android:gravity="center_horizontal"
@@ -31,16 +33,25 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="start"
         android:gravity="center_horizontal"
         android:hint="@string/password_name"
         android:inputType="textPassword"
         android:singleLine="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginButtonLabel"
+        android:id="@+id/RegisterButton"/>
     <ImageView
+        android:id="@+id/iVFlag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/flag"/>
+
 </LinearLayout>
